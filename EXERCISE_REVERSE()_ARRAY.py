@@ -1,0 +1,7 @@
+name = str(input("Enter Name: "))
+join = "".join(reversed(name))
+print("Reversed Name: ", join)
+name_char = list(name)
+print("Name Characters (Original Order):", name_char)
+name_char.reverse()
+print("Name Characters (Reversed Order)", name_char)
